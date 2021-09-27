@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+*{
+	color:#fff;
+	font-family: '微软雅黑';
+	font-size: 14px;
+}
+a,a:hover,a:active{
+	color:#fff;
+	text-decoration: none;
+	
+}
+
+/* 头部 */
+header .pull-right a{
+	color:#333;
+	margin:0px 10px;
+	font-size: 15px;
+}
+
+/* 导航条 */
+.nav{
+	height: 50px;
+	background: #02783e;
+}
+.nav ul li{
+	width:13%;
+	height: 50px;
+	line-height: 50px;
+}
+.nav ul li a{
+	font-size: 17px;
+	
+}
+.nav ul li:hover{
+	background:rgb(235,195,8);
+}
+
+
+/* 产品支持 */
+#support{
+	margin-left: 40px;
+}
+#support h2{
+	color:#333;
+	font-weight: bold;
+}
+
+#support p{
+	color:#333;
+	font-size: 17px;
+	height: 36px;
+	line-height: 36px;
+}
+#support div ul{
+	width:340px;
+	margin-top: 80px;
+	margin-left: -20px;
+	
+}
+#support div ul li{
+	height: 150px;
+}
+#support div ul li p{
+	font-size: 15px;
+	font-weight: light;
+	line-height: 25px;
+}
+
+/* 各类优势 */
+#advantages .row .col-md-3 p{
+	width:230px;
+	height:95px;
+	color: #027348;
+	font-size:20px;
+	margin-left: 5px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+/* 产品展示 */
+#product div table tr td img{
+	margin-right: 20px;;
+}
+
+
+/* 新闻中心 */
+#showNew .new-center{
+	color:#333;
+	width:150px;
+	height:39px;
+	border-top:5px solid #00923F;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 38px;background:#fff;
+}
+#showNew .new-more{
+	padding-right: 8px;
+	width:570px;
+	background: #eee;
+	float:left;
+	line-height: 40px;
+	color:#333;font-size: 17px;
+}
+
+
+/* 新闻下面的问题 */
+.news-list div ul{
+	list-style-image: url(../images/dot.jpg)
+}
+
+.news-list div ul li{
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	width:330px;
+	border-bottom: 1px dashed   #ccc;
+}
+.news-list ul li a{
+	color:#333;
+}
+
+
+/* 常见问题解答 */
+#askAndAnswer ul li:nth-child(odd){
+	color:#02783E;
+	font-weight: bold;
+	list-style-image: url(../images/ask.jpg);
+}
+#askAndAnswer ul li:nth-child(even){
+	color: #333;
+	list-style-image: url(../images/answer.jpg);
+}
+#askAndAnswer ul li{
+	vertical-align: center;
+	line-height: 22px;
+	margin-top: 10px;
+}
+
+#stores  ul li{
+	padding:5px;
+	height:250px;
+	width:284px;
+	border:3px solid #027348;
+}
+
+
+/* 门店展示 */
+#stores div .row .col-md-1 img{
+	display: inline-block;margin-top:100px;
+}
+#stores  ul li img{
+	margin-left: auto 0px;
+	height:190px;
+	width:268px;
+}
+#stores  ul li h4{
+	color:#333;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+}
+
+/* 页脚 */
+footer{
+	margin-top: 130px;
+	height:500px;
+	width: 100%;
+	background:url(../images/pageBg.jpg);
+	background-position:-300px 10px;
+	background-repeat:no-repeat;
+}
+.call{
+	left: 50px;
+	margin-top: 120px;
+	margin-left:125px;
+	
+}
+#footer-nav>ul{
+	height: 50px;
+	width:720px;
+	top:30px;
+	background:#fff;
+	padding-left:30px;
+	margin-top: 150px;
+	margin-right: 130px;
+}
+#footer-nav>ul li{
+	
+}
+
+#footer-nav ul li a{
+	display: inline-block;
+	width:75px;
+	font-size: 15px;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	color:#02783E;
+	font-weight: bold;
+}
+
+#footer-nav ul  span{
+	color:#02783E;
+}
+.copyright p{
+	line-height: 30px;
+	font-size: 16px;
+	margin-top: 40px;
+}

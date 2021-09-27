@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>一点点官网|一点点奶茶加盟</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-3.6.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				var store_imgs = ['1-1ZPQ13TY23-lp.png','1-1ZPQ13401Q2-lp.jpg','1-1ZPQ13505A9-lp.jpg','1-1ZPQ14501Q6-lp.png','1-1ZPQ224195H-lp.jpg'];
+				var store_positions = ['台湾','上海','北京','','杭州'];
+				
+				for(var index=0;index < (store_imgs.length-1);index++){
+					var li = document.createElement("li");
+					var img = document.createElement("img");
+					var h4 = document.createElement("h4");
+					var ul = document.querySelector('#theStores ul');
+					if(index==3){
+						h4.innerText = "一点点奶茶加盟店风格";
+					}
+					img.src = "images/"+store_imgs[index];
+					h4.innerText = store_positions[index]+"一点点奶茶加盟店"
+					li.appendChild(img);
+					li.appendChild(h4);
+					ul.appendChild(li);
+				}
+			})
+		</script>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<header>
+			<div class="container-fluid" style="padding:6px 50px;border-bottom:1px solid #ccc;">
+				<div class="pull-left" style="color:#333;font-size: 15px;">您好，欢迎光临一点点奶茶官方网站！</div>
+				<div class="pull-right"><a href="">网站地图</a>|<a href="">联系我们</a></div>
+			</div>
+		</header>
+		
+		<!-- LOGO -->
+		<div style="margin-top: 15px;">
+			<div class="container">
+				<div class="col-md-3">
+					<img src="images/logo.png" >
+				</div>
+				<img src="images/phoneBg.jpg"  class="pull-right">
+				<span style="font-size: 15px;color:#333;display: inline-block;float: right;margin-right:-180px;margin-top:40px">在线咨询热线:</span>
+			</div>
+		</div>
+		
+		<!-- 导航条 -->
+		<div class="nav" style="background-color: #00923F;">
+			<ul class=" unstyled list-inline text-center">
+				<li><a href="#">网站首页</a></li>
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">产品展示</a></li>
+				<li><a href="#">加盟流程</a></li>
+				<li><a href="#">新闻中心</a></li>
+				<li><a href="#">门店展示</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+		
+		<!-- 轮播图 -->
+		<div class="carousel slide" data-ride="carousel" id="mycarousel" >
+			<ul class="carousel-indicators">
+				<li data-slide-to="0" data-target="#mycarousel" class="active"></li>
+				<li data-slide-to="1" data-target="#mycarousel"></li>
+			</ul>
+			<div class="carousel-inner " role="listbox" >
+				<div class="item active" >
+					<img src="images/lunbo1.jpg" >
+				</div>
+				<div class="item" >
+					<img src="images/lunbo2.jpg" alt="">
+				</div>
+			</div>
+			<a class="center carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			   
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="center carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+
+		
+		<!-- 分割（关于我们上面） -->
+		<div style="height: 100px;">
+			<div style="width:100%;height: 50;background: url(images/searchBg.jpg);"></div>
+		</div>
+		
+		<!-- 关于我们 -->
+		<div  style="height:355px;background:#02783e;padding: 10px 10px ;">
+			<div class="pull-left" style="width: 662px;padding-left: 63px;">
+				<h3>关于我们----ABOUT US</h3>
+				<p style="font-size: 15px;line-height: 34px;">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一点点奶茶 起初仅是台湾台南地区路边的饮料摊位，尚未有专属之品牌名称，后因营业状况蒸蒸曰上，遂转型为店铺式经营。1997年成立第一家模范店，至此方奠定一点点奶茶完整的店铺型态与作业模式。 1998年后逐渐开始设立分店，走向连锁加盟式的经营，至2019年止，全全国已有3000余家门市。 在台湾坊间流传许多一点点品牌名称由来的故事，例如因为创办人喜爱曰本漫画《Candy Candy》，因此取用其作者五十岚优美子之姓氏稍加修改作为品牌名称。 事实上这名称是无心插柳的结果：某曰创办人左思右想了几个名字，随口告诉母...
+					<br>
+					<button class="btn btn-default" style="color:#02783e;width: 120px;height:30px;border-radius: 0px;">查看详情</button>
+				</p>
+			</div>
+			<div class="pull-right" >
+				<img src="images/in-about1.jpg" style="width:600px;margin-right:30px" >
+			</div>
+		</div>
+		
+		
+		<!-- 奶茶梦 -->	
+		<div class="center-block" style="height: 90px;margin-bottom: 60px;margin-top: 40px;">
+			<img src="images/wanmei_top_3.gif" class="center-block">
+		</div>
+		
+		<!-- 加盟支持 -->
+		<div  id="support" >
+			<h2 >选择一点点奶茶加盟的6大独家支持</h2>
+			<p style="background:#ccc">6 CHOOSE TO A LITTLE TEE THE EXCLUSIVE SUPPORT</p>
+			
+			<div style="background: url(images/zhi_qing_3.jpg) no-repeat;height:600px;margin-left: 65px;">
+				<ul class="list-unstyled text-right pull-left" >
+					<li>
+						<h3 style="color: #3C7B48;font-weight: bold;">品牌优势支持</h3>
+						<p>您可以使用一点点的知识产权，包括微标、名称、商标等进行合法经营活动，
+						这是我们对加盟商和消费者的保证和承诺。</p>
+					</li>
+					<li>
+						<h3 style="color: #3C7B48;font-weight: bold;">资源优势支持</h3>
+						<p>全球领先的管理智能化资源总部为加盟商提供高端的专业机器和优质的奶茶原物料。</p>
+					</li>
+					<li style="margin-top: -50px;">
+						<h3 style="color: #3C7B48;font-weight: bold;">广告宣传支持</h3>
+						<p>一点点奶茶店铺开业期间总部帮助加盟商宣传各大主流新闻媒体、互联网、线下杂志等全面覆盖。</p>
+					</li>
+				</ul>
+				<ul class="list-unstyled text-left pull-right" style="margin-right: 155px;;" >
+					<li>
+						<h3 style="color: #3C7B48;font-weight: bold;">品牌优势支持</h3>
+						<p>您可以使用一点点的知识产权，包括微标、名称、商标等进行合法经营活动，
+						这是我们对加盟商和消费者的保证和承诺。</p>
+					</li>
+					<li>
+						<h3 style="color: #3C7B48;font-weight: bold;">资源优势支持</h3>
+						<p>全球领先的管理智能化资源总部为加盟商提供高端的专业机器和优质的奶茶原物料。</p>
+					</li>
+					<li style="margin-top: -50px;">
+						<h3 style="color: #3C7B48;font-weight: bold;">广告宣传支持</h3>
+						<p>一点点奶茶店铺开业期间总部帮助加盟商宣传各大主流新闻媒体、互联网、线下杂志等全面覆盖。</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<!-- 一点点优势 -->
+		<div class="center-block" style="height: 90px;margin-bottom: 50px;">
+			<img src="images/tit_01.png" class="center-block">
+		</div>
+		<!-- 各类优势 -->
+		<div class="container" id="advantages">
+			<div class="row">
+				<div class="col-md-3 text-center">
+					<img src="images/advtage_01.png" ><br><br>
+					<p class="text-center">台湾一点点奶茶选用精品奶源，最大程度的保留原奶茶的营养，芳香独特。</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<img src="images/advtage_02.png" ><br><br>
+					<p class="text-center">一点点奶茶独特考究手工制作方法，一点点奶茶采用上等好茶和鲜香牛奶，现做现卖，新鲜美味。</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<img src="images/advtage_03.png" ><br><br>
+					<p class="text-center">一点点奶茶无任何添加，无奶精，无果粉，无色素无添加剂，绿色健康。</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<img src="images/advtage_04.png" ><br><br>
+					<p class="text-center">一点点奶茶加盟店产品多样，茶饮，果汁，冰沙等样样俱全。公司还会不断更新产品，满足市场需求。</p>
+				</div>
+			</div>
+		</div>
+	
+		
+		<!-- 投资咨询 -->
+		<div style="margin: 30px 0px;background: #027348;">
+			<img src="images/ydd_32.jpg" class="center-block">
+		</div>
+		
+		<!-- 产品展示 -->
+		<div id="product">
+			<div style="margin: 30px 0px 40px;">
+				<img src="images/tit_02.png" class="center-block">
+			</div>
+			<div>
+				<table style="margin:0 auto;">
+					<tr>
+						<td><img src="images/pro_01.jpg" alt=""></td>
+						<td ><img src="images/pro_02.jpg" alt=""></td>
+						<td><img src="images/pro_03.jpg" alt=""></td>
+					</tr>
+					<tr>
+						<td><img src="images/pro_04.jpg" alt=""></td>
+						<td ><img src="images/pro_05.jpg" alt=""></td>
+						<td><img src="images/pro_06.jpg" alt=""></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+		
+		<!-- 新闻中心 -->
+		<div id="showNew" style="margin: 60px 50px;">
+			<div class="pull-left" style="width:60%">
+				<div style="background: #eee;max-height: 40px;">
+					<div style="float:left" class="new-center text-center ">新闻中心</div>
+					<div style="" class="new-more text-right">more++</div>	
+				</div>
+				<br><br>
+				<div style="margin-top:15px;">
+					<div class="pull-left">
+						<img src="images/1-210429162132429.jpg" style="height: 172px;width:294px;" >
+					</div>
+					<div style="width:55%;margin-left: 30px;" class="pull-left" >
+						<h4 style="color: #00923F;font-weight: bold;">对于新手来说，在一点点官网投资加盟更能减少</h4>
+						<p style="width:380px;color:#333;">一点点奶茶是奶茶市场的主要品牌，也是消费者喜爱的奶茶店。它在奶茶市场的销量非常好，适合在小本投资，可以让你轻松赚更多的钱。以下是一点点奶茶官网小编的介绍.....</p>
+						<button class="btn btn-default" style="background-color:#02783e;color:#fff;width: 120px;height:30px;border-radius: 0px;">查看详情</button>
+					</div>
+					<br><br>	
+				</div>
+				<br><br>
+			</div>
+			<!-- 常见问题解答 -->
+			<div class="pull-right" style="width:35%;">
+					<div id="askAndAnswer"  style="background: #eee;max-height: 40px;">
+						<div style="" class="new-center text-center">常见问题解答</div>
+						<ul style="padding-top:10px;">
+							<li>一点点奶茶官网加盟问答</li>
+							<li>一点点奶茶官网的店面风格，装修时怎么样的？A:一点点奶茶官网实行的是连锁管理，统一规划，加盟者……</li>
+							<li>一点点奶茶官网加盟问答</li>
+							<li>一点点奶茶官网的店面风格，装修时怎么样的？A:一点点奶茶官网实行的是连锁管理，统一规划，加盟者……</li>
+						</ul>
+					</div><br><br>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		
+		<!-- 新闻下面的问题 -->
+		<div style="margin: 20px 80px;">
+			<div class="row news-list">
+				<div class="col-md-4">
+					<ul class="list-unstyled">
+						<li><a href="#" title="对于新手来说，在一点点官网投资加盟更能减少....">&nbsp;&nbsp;&gt;对于新手来说，在一点点官网投资加盟更能减少....</a></li>
+						<li><a href="#" title="对于新手来说，在一点点官网投资加盟更能减少....">&nbsp;&nbsp;&gt;对于新手来说，在一点点官网投资加盟更能减少....</a></li>
+						<li><a href="#" title="对于新手来说，在一点点官网投资加盟更能减少....">&nbsp;&nbsp;&gt;对于新手来说，在一点点官网投资加盟更能减少....</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4" style="margin-left: -35px;">
+					<ul class="list-unstyled">
+						<li><a href="#" title="对于新手来说，在一点点官网投资加盟更能减少....">&nbsp;&nbsp;&gt;对于新手来说，在一点点官网投资加盟更能减少....</a></li>
+						<li><a href="#" title="对于新手来说，在一点点官网投资加盟更能减少....">&nbsp;&nbsp;&gt;对于新手来说，在一点点官网投资加盟更能减少....</a></li>
+						<li><a href="#" title="对于新手来说，在一点点官网投资加盟更能减少....">&nbsp;&nbsp;&gt;对于新手来说，在一点点官网投资加盟更能减少....</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 门店展示 -->
+		<div style="margin: 40px 0px 40px;">
+			<img src="images/tit_03.png" class="center-block">
+		</div>
+		<!-- 各地分店图片展示 -->
+		<div id="stores" style="padding:20px 0px">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-1" >
+						<img style="margin-left:30px" class="pull-left" style="" src="images/mfrl.gif" alt="">
+					</div>
+					<div class="col-md-10" id="theStores">
+							<ul class="list-unstyled list-inline center-block"></ul>	
+					</div>
+					<div class="col-md-1">
+						<img class="pull-right" style="margin-right:30px" src="images/mfrr.gif" alt="">
+					</div>
+				</div>
+			</div>
+		</div>		
+		
+		<!-- 页脚 -->
+		<footer style="">
+			<div  class="call pull-left">
+				<img src="images/botmPhone.jpg" style="display:inline-block;float:left;">
+				<div style="float:left;margin-left:10px">
+					<span style="font-size:15px;color:#027348">点击留言：</span><br>
+					<span style="font-size:17px;color:#333;font-weight: bold;">一点点奶茶加盟申请表</span>
+				</div>
+			</div>
+			<!-- 导航条 -->
+			<div id="footer-nav" class="pull-right">
+				<ul class="unstyled list-inline">
+					<li><a href="#">网站首页&nbsp;&nbsp;&nbsp;</a></li>
+					<span>/</span>
+					<li><a href="#">关于我们</a></li><span>/</span>
+					<li><a href="#">产品展示&nbsp;&nbsp;&nbsp;</a></li><span>/</span>
+					<li><a href="#">加盟流程&nbsp;&nbsp;&nbsp;</a></li><span>/</span>
+					<li><a href="#">新闻中心&nbsp;&nbsp;&nbsp;</a></li><span>/</span>
+					<li><a href="#">门店展示&nbsp;&nbsp;&nbsp;</a></li><span>/</span>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+				
+				<div class="copyright">
+					<p>Copyright &reg; 2002-2021 一点点官网 &nbsp;版权所有</p>
+					<p>一点点奶茶加盟官网，欢迎前来咨询 !</p>
+				</div>
+			</div>
+		</footer>
+		
+		
+	</body>
+</html>
